@@ -6,6 +6,7 @@
         <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic|Playfair+Display:400,700&subset=latin,cyrillic">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap&subset=cyrillic" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="./style.css">
         
         <title>Территориальная избирательная комиссия города Салехарда</title>
@@ -14,48 +15,100 @@
     <body>
         <header>
 
-            
+            <div class="top__contact">
+                <div class="top">
+                    <div class="img-links">
+                            
+                            <i class="fas fa-home"></i>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <i class="fas fa-sitemap"></i>
+                         
+                    </div> 
+                </div>    
+                  
+
+
+            </div>
             <div class="top">
-                    <a class="logo" href="">
-                            <img src="./images/logo.png">
-                    </a>
-                    <h1>Территориальная избирательная комиссия города Салехарда</h1>
-                    <div class="contacts">
+                <div class="top__logo">   
+                    
+                            <div class="logo__image"><img src="./images/logo.png" alt="Территориальная избирательная комиссия города Салехарда"></div>
+                            <div class="logo__title">Территориальная избирательная комиссия города Салехарда</div>
+                    
+                </div>   
+                
+                <div class="right__icons">
+                    <div class="search-block">
+                        <span style="color:#000;">Поиск по сайту</span>
+                        <div class="special">
+                                <i class="fas fa-search"></i>
+                        </div>
+                    </div>
+                    <div class="special">
+                            <i class="fas fa-glasses"></i>
+                    </div>
+
+                </div>
+                    
+                    <!--<div class="top__contacts">
                         <address>629007, ЯНАО, г.Салехард,
                                 ул. Свердлова, 48<br>
                                 Факс: 8(34922) 2-53-80<br>
                                 Эл.почта: izbirkom@salekhard.org<br>
                                 Режим работы:<br>
-                                Пн-Пт 8:30-18:00</address>
-                        <div class="img-links">
-                            
-                                <i class="fas fa-home"></i>
-                                <i class="fas fa-map-marker-alt"></i>
-                                <i class="fas fa-sitemap"></i>
-                             
-                        </div>        
-                    </div>
+                                Пн-Пт 8:30-18:00
+                        </address>
+                              
+                    </div>-->
 
               
             </div>
             <nav class="topMenu">
                     <div class="nav-toggle"><span></span></div>
                     <ul id="menu-top">
-                           <li>Комиссия</li>
-                           <li>Документы комиссии</li>
-                           <li>Выборы</li>
-                           <li>Органы местного самоуправления</li>
+                           <li>Комиссия
+                               <ul class="top__submenu">
+                                   <li>Состав</li>
+                                   <li>Территориальная избирательная комиссия</li>
+                                   <li>Рабочие группы, образованные в ТИК</li>
+                                   <li>Регламент ТИК</li>
+                               </ul>
+                           </li>
+                           <li>Документы 
+                                <ul class="top__submenu">
+                                        <li>Состав</li>
+                                        <li>Территориальная избирательная комиссия</li>
+                                        <li>Рабочие группы, образованные в ТИК</li>
+                                        <li>Регламент ТИК</li>
+                                    </ul>
+                           </li>
+                           <li>Выборы
+                                <ul class="top__submenu">
+                                        <li>Ближайшие выборы</li>
+                                        <li>Архив выборов</li>
+                                        <li>СМИ</li>
+                                        <li>Места для агитации</li>
+                                        <li>Места для встреч с избирателями</li>
+                                        <li>Использование КОИБ, видеонаблюдения</li>
+                                    </ul>
+
+                           </li>
+                           <li>Органы МС</li>
                            <li>Правовая культура</li>
                            <li>Политические партии</li>
-                           <li>Карта сайта</li> 
+                           
                     </ul>
             </nav>
         
         </header>
 
+        
+        <div class="row">
         <div class="container">
+
+            
             <div class="post-list">
-                <h2 class="posts-title">Новости</h2>
+                <h2 class="news-title">Новости</h2>
                 <article id="post-1" class="post">
                     <h3 class="post-title">Атмосфера 2019-2020</h3>
                     <div class="post-data"><h4>04 октября 2019 года</h4></div>
@@ -71,24 +124,82 @@
                                 
                                 Подробно о требованиях к оформлению работ можно прочитать в Положении о конкурсе (ссылка):
                                 
-                                http://www.rcoit.ru/competitions/atmosphere2020/</p>
+                               <a href="http://www.rcoit.ru/competitions/atmosphere2020/">http://www.rcoit.ru/competitions/atmosphere2020/</a></p>
+                </article>
+                               <article id="post-1" class="post">
+                               <h3 class="post-title">Атмосфера 2019-2020</h3>
+                    <div class="post-data"><h4>04 октября 2019 года</h4></div>
+                        <p>Конкурс организован в целях повышения интереса к выборам со стороны молодежи.
+
+                                Конкурс предлагает реализовать свой потенциал в одной из 6 номинаций: «Цифровая волна», «Творческий циклон», «Научный фронт», «Школьная жара», «Студенческая стихия», «Методстанция». 
+                                
+                                В срок до 1 ноября 2019 года лица, изъявившие желание участвовать в Конкурсе, должны направить заявку в электронном виде на участие в Конкурсе через официальный сайт РЦОИТ при ЦИК России в разделе "Конкурс "Атмосфера" 2019-2020" (atmosfera@rcoit.ru). 
+                                
+                                Конкурсную работу участник может отправить самостоятельно, либо через Избирательную комиссию Ямало-Ненецкого автономного округа, либо через образовательную организацию на почтовый адрес РЦОИТ при ЦИК России (101000, г.Москва, ул.Мясницкая, д.47), срок направления работы - до 1 декабря текущего года.
+                                
+                                Финал конкурса запланирован на апрель-июнь 2020 года. Победители получат денежные призы.
+                                <img src="./images/image1.jpg" alt="Заседание комиссии">
+                                
+                                Подробно о требованиях к оформлению работ можно прочитать в Положении о конкурсе (ссылка):
+                                
+                               <a href="http://www.rcoit.ru/competitions/atmosphere2020/">http://www.rcoit.ru/competitions/atmosphere2020/</a></p>
 
                                 
 
                 </article>
+                <article id="post-1" class="post">
+                        <h3 class="post-title">Атмосфера 2019-2020</h3>
+             <div class="post-data"><h4>04 октября 2019 года</h4></div>
+                 <p>Конкурс организован в целях повышения интереса к выборам со стороны молодежи.
+
+                         Конкурс предлагает реализовать свой потенциал в одной из 6 номинаций: «Цифровая волна», «Творческий циклон», «Научный фронт», «Школьная жара», «Студенческая стихия», «Методстанция». 
+                         
+                         В срок до 1 ноября 2019 года лица, изъявившие желание участвовать в Конкурсе, должны направить заявку в электронном виде на участие в Конкурсе через официальный сайт РЦОИТ при ЦИК России в разделе "Конкурс "Атмосфера" 2019-2020" (atmosfera@rcoit.ru). 
+                         
+                         Конкурсную работу участник может отправить самостоятельно, либо через Избирательную комиссию Ямало-Ненецкого автономного округа, либо через образовательную организацию на почтовый адрес РЦОИТ при ЦИК России (101000, г.Москва, ул.Мясницкая, д.47), срок направления работы - до 1 декабря текущего года.
+                         
+                         Финал конкурса запланирован на апрель-июнь 2020 года. Победители получат денежные призы.
+                         
+                         Подробно о требованиях к оформлению работ можно прочитать в Положении о конкурсе (ссылка):
+                         
+                        <a href="http://www.rcoit.ru/competitions/atmosphere2020/">http://www.rcoit.ru/competitions/atmosphere2020/</a></p>
+
+                         
+
+         </article>
+
+         <div class="page__nav">
+             <div class="page_item">1</div>
+             <div class="page_item">2</div>
+             <div class="page_item">3</div>
+             <div class="page_item">4</div>
+             <div class="page_item">5</div>
+         </div>
+
             </div>
-            <aside>
+            
+        </div>
+        <aside>
                 <div class="widget">
-                    <h3 class="widget-title">Полезные ресурсы</h3>
+                    
                     
                 </div>
 
                 <nav class="right-menu">
                         <ul id="right_menu">
-                            <li>Участковые избирательные комиссии</li>
+                            <li >Участковые избирательные комиссии</li>
                             <li>Избирательные округа и участки</li>
                             <li>Численность избирателей</li>
                             <li>Обеспечение избирательных прав граждан РФ, являющихся инвалидами</li>
+                            <li>Законодательство о выборах и референдумах</li>
+                            <li>Избирательные кампании и референдумы на территории муниципального образования
+
+                            </li>
+                            <li>Противодействие коррупции</li>
+                            <li>Работа с обращениями граждан</li>
+                            <li>Обучение</li>
+                            <li>Открытые данные</li>
+
                         </ul>
                 </nav>
 
@@ -102,10 +213,33 @@
                                 <i class="fas fa-desktop"></i>
                                 <span>Программа тестирования членов участковых избирательных комиссий</span>
                         </div>
+                        <div class="item">
+                                <i class="fas fa-glasses"></i>
+                                <span>версия сайта для слабовидящих</span>
+                        </div>
+                        <div class="item">
+                                <i class="fas fa-desktop"></i>
+                                <span>Программа тестирования членов участковых избирательных комиссий</span>
+                        </div>
+                        <div class="item">
+                                <i class="fas fa-glasses"></i>
+                                <span>версия сайта для слабовидящих</span>
+                        </div>
+                        <div class="item">
+                                <i class="fas fa-desktop"></i>
+                                <span>Программа тестирования членов участковых избирательных комиссий</span>
+                        </div>
                     
                 </div>
             </aside>
         </div>
+
+        <footer>
+            <div class="top">
+                <span class="copyright">@2019 Территориальная избирательная комиссия города Салехарда</span>
+
+                </div>
+        </footer>
 
             <script src="./script.js"></script>
     </body>
