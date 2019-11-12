@@ -28,6 +28,7 @@ body {
     background: #F7F6F9;
     font-family: "Roboto Condensed";
     
+    
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -462,7 +463,8 @@ font-size: 0.8em;
 .search_wrapper {
     
     height: 140px;
-    width:1200px;
+    width:100%;
+    min-width:1200px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -494,6 +496,7 @@ font-size: 0.8em;
     
     background: #456fa0;
     color: #fff;
+    font-size: 14px;
 
 }
 .search_wrapper > button:hover {
@@ -501,9 +504,9 @@ font-size: 0.8em;
 }
 
 .close_search {
-    position: absolute;
-    right: 45px;
-    top:20px;
+    position: relative;
+    left: 100px;
+    top:0;
     width: 32px;
     height: 32px;
     opacity: 0.3;

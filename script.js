@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", () =>{
         topSearch.style.top = '-160px';
         searchInput.value = '';
     }
+        
     });
 
     searchBlock.addEventListener("click", function(e) {
@@ -23,5 +24,7 @@ document.addEventListener("DOMContentLoaded", () =>{
 
         }
     });
+
+
 
 });
