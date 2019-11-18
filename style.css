@@ -1,3 +1,7 @@
+@import './blocks/custom-special/custom-special.css';
+
+
+
 *, *:after, *:before {
     box-sizing: border-box;
     padding: 0;
@@ -114,9 +118,10 @@ header {
 .search-block span{
     display:block;
     float:left;
-    width:100%;
+    width:150px;
+    min-width:150px;
     position: relative;
-    left: 50px;
+    left: 30px;
     font-family: "Roboto Condensed";
     font-style: italic;
     
@@ -129,22 +134,24 @@ header {
 .special {
     width:40px;
     height:40px;
-    border-radius: 50%;
-   /* background:#355aa8;*/
-   background: var(--main-bg-color);
+   border-radius: 50%;
+    background: var(--main-bg-color);
     line-height: 40px;
-    margin-left:30px;
+    margin-left:10px;
+    font-size: 22px;
+    vertical-align: middle;
+    text-align: center;
+
    
    /* #d5dfe6*/
 }
 
 .special i {
+
+   /* width:40px;*/
     vertical-align: middle;
     text-align: center;
-    width:40px;
-    vertical-align: middle;
-    text-align: center;
-    font-size: 22px;
+   /* font-size: 22px;*/
 }
 
 .topMenu{

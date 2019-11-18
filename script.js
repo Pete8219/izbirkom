@@ -3,8 +3,10 @@ document.addEventListener("DOMContentLoaded", () =>{
     
     let closeButton = document.querySelector('.close_search'),
         topSearch =  document.querySelector('.top__search'),
+        customSpecial = document.querySelector('.custom-special'),
         searchInput = document.querySelector('.search__input'),
-        searchBlock = document.querySelector('.search-block');
+        searchBlock = document.querySelector('.search-block'),
+        special = document.querySelectorAll('.special')[1];
 
 
     topSearch.addEventListener("click", function(e) {
@@ -24,6 +26,12 @@ document.addEventListener("DOMContentLoaded", () =>{
 
         }
     });
+
+    special.addEventListener("click", function(e){
+        if(event.target) {
+            customSpecial.style.display = 'block';
+        }
+    })
 
 
 
